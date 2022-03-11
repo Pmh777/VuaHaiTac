@@ -30,8 +30,8 @@ namespace BaiKiemTra
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUsername = new System.Windows.Forms.TextBox();
-            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -41,32 +41,32 @@ namespace BaiKiemTra
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(201, 126);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 17);
+            this.label1.Size = new System.Drawing.Size(70, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
             // 
-            // txtUsername
+            // textboxusername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(289, 121);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(184, 22);
-            this.txtUsername.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(289, 121);
+            this.textboxusername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(184, 22);
+            this.textboxusername.TabIndex = 1;
             // 
-            // txtpassword
+            // textboxmatkhau
             // 
-            this.txtpassword.Location = new System.Drawing.Point(289, 181);
-            this.txtpassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(184, 22);
-            this.txtpassword.TabIndex = 3;
+            this.textboxmatkhau.Location = new System.Drawing.Point(289, 181);
+            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(184, 22);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(201, 186);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 17);
+            this.label2.Size = new System.Drawing.Size(67, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Password";
             // 
@@ -85,9 +85,9 @@ namespace BaiKiemTra
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txtpassword);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
@@ -100,8 +100,8 @@ namespace BaiKiemTra
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUsername;
-        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.TextBox textboxusername;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnLogin;
     }
