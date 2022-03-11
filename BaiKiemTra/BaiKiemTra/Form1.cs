@@ -16,5 +16,15 @@ namespace BaiKiemTra
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(textboxusername.Text.Equals("admin") && textboxmatkhau.Text.Equals("admin"))
+            {
+                frmSuccess frm = new frmSuccess();
+                frm.Show();
+           
+            }
+        }
     }
 }
