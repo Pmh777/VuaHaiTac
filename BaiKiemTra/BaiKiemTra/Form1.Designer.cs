@@ -39,11 +39,11 @@ namespace BaiKiemTra
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(201, 126);
+            this.label1.Location = new System.Drawing.Point(203, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 16);
+            this.label1.Size = new System.Drawing.Size(109, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Username";
+            this.label1.Text = "Tên đăng nhập:";
             // 
             // textboxusername
             // 
@@ -64,19 +64,20 @@ namespace BaiKiemTra
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(201, 186);
+            this.label2.Location = new System.Drawing.Point(203, 192);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 16);
+            this.label2.Size = new System.Drawing.Size(70, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Password";
+            this.label2.Text = "Mật khẩu:";
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(336, 228);
+            this.btnLogin.Location = new System.Drawing.Point(383, 238);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(90, 29);
+            this.btnLogin.Size = new System.Drawing.Size(91, 30);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
